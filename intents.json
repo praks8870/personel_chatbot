@@ -1,0 +1,80 @@
+{"intents":[
+    {"tag":"greetings",
+    "patterns":["hi!", 
+    "What are you", 
+    "Hello!", 
+    "How are you",
+    "Greetings", 
+    "What a pleasant day",
+    "hey"],
+    "responses":
+            ["Hello! How can I assist you today?",
+        "Hi there, what can I help you with?",
+        "Hey! I'm here to assist you.",
+        "Hi! What can I do for you today?",
+        "Good day! How can I make your day better?"]
+
+},
+{"tag":"goodbye",
+"patterns":["bye", 
+    "see you later", 
+    "good bye","later", "good to see you"],
+"responses":["Goodbye! Looking forward to our next chat!",
+        "See you soon! Have a great day ahead.",
+        "Bye! Come back anytime if you need help.",
+        "Take care! Feel free to chat with me again.",
+        "Goodbye, thanks for stopping by!"]},
+
+        {
+            "tag": "thanks",
+            "patterns": [
+              "Thanks",
+              "Thank you",
+              "Much appreciated",
+              "That's helpful",
+              "Thank you so much!",
+              "Thanks a lot"
+            ],
+            "responses": [
+              "You're welcome!",
+              "Glad I could help!",
+              "No problem, happy to assist!",
+              "Any time! Let me know if you need more help.",
+              "My pleasure! Don't hesitate to ask if you need anything else."
+            ]
+        },
+
+{ "tag": "items",
+"patterns": [
+  "What can you do?",
+  "Tell me about your features",
+  "How does this chatbot work?",
+  "What tasks can you handle?",
+  "What services do you provide?",
+  "How do you assist?"
+],
+"responses":["I am a chatbot, and I can talk with you",
+"Iam Ironman",
+"I am like a personel assistant to you", 
+"you can tell me anything i will respond without any inturruptions"]
+},
+
+{
+    "tag": "funny",
+    "patterns": [
+      "Tell me a joke!",
+      "Make me laugh",
+      "Do you know any jokes?",
+      "Say something funny!",
+      "Can you tell me a funny story?"
+    ],
+    "responses": [
+      "Why don't scientists trust atoms? Because they make up everything!",
+      "I told my computer I needed a break, and now it's on vacation mode!",
+      "Why did the bicycle fall over? Because it was two-tired.",
+      "What do you call fake spaghetti? An impasta!",
+      "I'm reading a book about anti-gravity. It's impossible to put down!"
+    ]
+  }
+
+]}
